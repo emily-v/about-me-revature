@@ -1,0 +1,44 @@
+body {
+    background-color: lavender;
+    font-size: 1.25em;
+    padding: 5% 10%;
+}
+
+section {
+    display: flex;
+}
+
+.half-width {
+    margin: 10px 20px;
+}
+
+.third-width {
+    margin: 10px auto;
+    transition: all .2s ease-in-out; 
+}
+     
+.third-width:hover { 
+    transform: scale(1.1); 
+}
+
+span {
+    display: inline-block;
+    font-size: 1.1em;
+    color: #400080;
+    transition: all .4s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+span:hover{
+    transform: scale(1.1);
+}
+
+img {
+    border-radius: 50%;
+    border: 3px solid white;
+    transition: all 1s cubic-bezier(0, 2.18, 0.29, 1.58);
+}
+
+img:hover {
+    transform: rotate(10deg);
+}
+
