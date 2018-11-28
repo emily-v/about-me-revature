@@ -2,8 +2,12 @@ body {
     background-color: lavender;
     font-size: 1.25em;
     padding: 5% 10%;
+    font-family: 'Muli', sans-serif;
 }
 
+h1, h4 {
+    font-family: 'Poppins', sans-serif;
+}
 section {
     display: flex;
 }
@@ -32,6 +36,10 @@ span:hover{
     transform: scale(1.1);
 }
 
+#about {
+    margin-bottom: 0;
+}
+
 img {
     border-radius: 50%;
     border: 3px solid white;
@@ -40,5 +48,25 @@ img {
 
 img:hover {
     transform: rotate(10deg);
+}
+
+#socials ul {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#socials ul li {
+    margin: 5px 20px;
+    padding: 10px 10px 5px 10px;
+    font-size: 2em;
+    border: 1px solid transparent;
+}
+
+#socials ul li:hover {
+    border: 1px solid gray;
+    border-radius: 5px;
 }
 
