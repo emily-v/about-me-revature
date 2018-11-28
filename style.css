@@ -41,13 +41,13 @@ span:hover{
     line-height: 1.5;
 }
 
-img {
+#me-pic {
     border-radius: 50%;
     border: 3px solid white;
     transition: all 1s cubic-bezier(0, 2.18, 0.29, 1.58);
 }
 
-img:hover {
+#me-pic:hover {
     transform: rotate(10deg);
 }
 
@@ -72,3 +72,34 @@ img:hover {
     box-shadow: 3px 3px 2px lightgray;
 }
 
+#click-me {
+    display:block;
+    margin: 0 auto;
+    text-align: center;
+    background-color: turquoise;
+    font-size: 1.5em;
+    border-top: 2px solid lightgray;
+    border-left: 2px solid lightgray;
+    border-bottom: 2px solid darkgray;
+    border-right: 2px solid darkgray;
+}
+
+#click-me:hover {
+    background-color: rgb(0, 89, 255);
+    color: white;
+}
+
+#bottom-image {
+    display: block;
+    margin: 30px auto;
+    width: 1000px;
+    border: 1px solid black;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}

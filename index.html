@@ -27,7 +27,7 @@
                     its users in some way.</p>
             </div>
             <div class="half-width">
-                <img src="me.jpg" alt="Emily" width="250" />
+                <img id="me-pic" src="me.jpg" alt="Emily" width="250" />
             </div>
         </section>
         <section id="socials">
@@ -72,5 +72,22 @@
                 </ul>
             </div>
         </section>
+        <button id="click-me">Click to see one of my favorite photos!</button>
+        <img src="vegas.jpg" id="bottom-image" class="invisible"/>
+
+        <script>
+        
+            const button = document.getElementById("click-me");
+            const image = document.getElementById("bottom-image");
+            function clickMe () {
+                image.classList.remove("invisible");
+                image.classList.add("visible");
+            }
+            
+            button.addEventListener("click", clickMe);
+
+        </script>
+
+
     </body>
 </html>
