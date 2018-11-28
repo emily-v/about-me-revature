@@ -38,6 +38,7 @@ span:hover{
 
 #about {
     margin-bottom: 0;
+    line-height: 1.5;
 }
 
 img {
@@ -68,5 +69,6 @@ img:hover {
 #socials ul li:hover {
     border: 1px solid gray;
     border-radius: 5px;
+    box-shadow: 3px 3px 2px lightgray;
 }
 
